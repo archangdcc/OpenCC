@@ -54,6 +54,7 @@ endforeach(DICT)
 set(
   DICT_TWPhrases_GENERATING_INPUT
   ${DICT_DIR}/TWPhrasesIT.txt
+  ${DICT_DIR}/TWPhrasesAstro.txt
   ${DICT_DIR}/TWPhrasesName.txt
   ${DICT_DIR}/TWPhrasesOther.txt
 )

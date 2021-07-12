@@ -69,7 +69,7 @@
       "action_name": "TWPhrases.txt",
       "inputs": ["<(cmd)"],
       "outputs": ["<(output_prefix)TWPhrases.txt"],
-      "action": ["python", "<(dict_merge)", "<(input_prefix)TWPhrasesIT.txt", "<(input_prefix)TWPhrasesName.txt", "<(input_prefix)TWPhrasesOther.txt", "<@(_outputs)"]
+      "action": ["python", "<(dict_merge)", "<(input_prefix)TWPhrasesIT.txt", "<(input_prefix)TWPhrasesAstro.txt", "<(input_prefix)TWPhrasesName.txt", "<(input_prefix)TWPhrasesOther.txt", "<@(_outputs)"]
     }, {
       "action_name": "TWVariantsRev.txt",
       "variables": {
